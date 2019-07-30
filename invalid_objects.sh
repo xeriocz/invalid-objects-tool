@@ -122,24 +122,17 @@ echo " "
 	mainmenu
 
  elif [ "$mainmenuinput" = "I" ] || [  "$mainmenuinput" = "i" ]; then
-	if [ $ICINGA = "mon-active01.svale.netledger.com" ]; then ICINGA="mon-active01.dub.netledger.com"
-	elif [ $ICINGA = "mon-active01.dub.netledger.com" ]; then ICINGA="mon-active01.bos.netledger.com"
-	elif [ $ICINGA = "mon-active01.bos.netledger.com" ]; then ICINGA="mon-active01.sea.netledger.com"
-	elif [ $ICINGA = "mon-active01.sea.netledger.com" ]; then ICINGA="mon-active01.chi.netledger.com"
-        elif [ $ICINGA = "mon-active01.chi.netledger.com" ]; then ICINGA="mon-active01.ams.netledger.com"
-	else ICINGA="mon-active01.svale.netledger.com"	
+	if [ $ICINGA = "mon-active01" ]; then ICINGA="mon-active01"
+	elif [ $ICINGA = "mon-active01" ]; then ICINGA="mon-active01"
+	elif [ $ICINGA = "mon-active01" ]; then ICINGA="mon-active01"
+	elif [ $ICINGA = "mon-active01" ]; then ICINGA="mon-active01"
+        elif [ $ICINGA = "mon-active01" ]; then ICINGA="mon-active01"
+	else ICINGA="mon-active01"	
 	fi
 	clear
 	mainmenu
 
  elif [ "$mainmenuinput" = "Q" ] || [  "$mainmenuinput" = "q" ]; then
-        if [ $ICINGA = "mon-active01.svale.netledger.com" ]; then ICINGA="mon-active01.dub.netledger.com"
-        elif [ $ICINGA = "mon-active01.dub.netledger.com" ]; then ICINGA="mon-active01.bos.netledger.com"
-        elif [ $ICINGA = "mon-active01.bos.netledger.com" ]; then ICINGA="mon-active01.sea.netledger.com"
-        elif [ $ICINGA = "mon-active01.sea.netledger.com" ]; then ICINGA="mon-active01.chi.netledger.com"
-        elif [ $ICINGA = "mon-active01.chi.netledger.com" ]; then ICINGA="mon-active01.ams.netledger.com"
-        else ICINGA="mon-active01.svale.netledger.com"
-        fi
         clear
         mainmenu
 
