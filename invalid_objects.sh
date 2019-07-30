@@ -6,7 +6,7 @@ SID=${a##*:}
 STATUS="-1"
 VERSION=18.5
 INSTANCE="nlcdb"
-ICINGA="mon-active01.svale.netledger.com"
+ICINGA="mon-active01"
 echo "Parameter not found"
 echo "use FQDN:SID as parameter"
 [ -z "$1" ] && exit
